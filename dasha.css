@@ -1,0 +1,216 @@
+@font-face {
+  font-family: "Кинопоиск";
+  src: url("RobotoCondensed-Bold.ttf") format("truetype");
+}
+
+    
+    
+    /* фиксированное меню */
+    .header {
+      font-size: 100%;
+      display: flex;
+      font-family: Graphik Kinopoisk LC Web,Tahoma,Arial,Verdana,sans-serif;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0px;
+      padding-left: 0;
+      position: fixed; /* фиксация меню */
+      width: 100%;
+      top: 0;
+      left: 0;
+      right: 0;
+      background-color: #141414;
+      z-index: 1; /* фиксация меню поверх другого контента */
+      color: aliceblue;
+    }
+
+    .header h1 {
+      margin-left: 30px;
+      font-size: 30px;
+      font-family: "Кинопоиск", sans-serif;
+    }
+  
+    .header a {
+      display: inline-block;
+      color: rgba(255,255,255,.6);
+      text-decoration: none;
+      font-weight: bold;
+      padding-right: 60px;
+      border: none;
+      transition: all 0.1s ease-in-out;
+    }
+  
+    nav a:hover {
+      /* transform: translateY(-2px); */
+      color: aliceblue;
+    }
+  
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+    }
+
+		/* остальной контент */
+		body {
+			margin-top: 115px;
+      margin-left: 50px;
+      margin-right: 50px;
+			background: #f4f4f4;
+			font-family: Graphik Kinopoisk LC Web,Tahoma,Arial,Verdana,sans-serif;
+		}
+
+    .container {
+      display: flex;
+    }
+
+    .text {
+      position: relative;
+      display: flex;
+    }
+
+    img {
+      margin-right: 50px;
+      width: 90%;
+    }
+
+    .column1 {
+      flex: 1;
+      width: 30%;
+    }
+    
+    .column2 {
+      flex: 1;
+      width: 500px;
+      position: relative;
+    }
+
+    .column3 {
+      flex: 1;
+    }
+    
+    .column2 h1 {
+      font-size: 40px;
+      font-weight: bold;
+      font-family: Graphik Kinopoisk LC Web,Tahoma,Arial,Verdana,sans-serif;
+      letter-spacing: -.5px;
+    }
+
+    .prepare-orange {
+      color: rgba(255,101,0,.9);
+      background: rgba(255,101,0,.1);
+    }
+
+    .prepare-grey {
+      color: rgba(31,31,31,.4);
+      font-size: 14px;
+    }
+
+    .big-green {
+      color: #3bb33b;
+      font-size: 32px;
+      font-weight: 700;
+      font-family: Graphik Kinopoisk LC Web,Tahoma,Arial,Verdana,sans-serif;
+    }
+
+    .main-roles {
+      color: inherit;
+      font-weight: bold;
+      font-size: 14px;
+    }
+    
+    .actors {
+      font-family: Graphik Kinopoisk LC Web,Tahoma,Arial,Verdana,sans-serif;
+      font-size: 13px;
+      line-height: 25px;
+      margin-top: 70px;
+    }
+
+    .column2 p {
+      margin-top: 0px;
+      font-size: 14px;
+    }    
+
+    .btn {
+      display: inline-block;
+      background: rgba(0,0,0,.05);
+      border: none;
+      border-radius: 50px;
+      padding: 15px 30px;
+      font-size: 16px;
+      transition: all 0.2s ease-in-out;
+      font-weight: bolder;
+    }
+    
+    .btn:hover {
+      transform: scale(1.1);
+      background-color: #ddd;
+    }
+
+    .btn1 {
+      display: inline-block;
+      background: rgba(0,0,0,.05);
+      border: none;
+      border-radius: 50px;
+      padding: 15px 30px;
+      font-size: 16px;
+      transition: all 0.2s ease-in-out;
+      font-weight: bolder;
+      margin-top: 15px;
+      width: 90%;
+    }
+
+   .btn1:hover {
+      transform: scale(1.1);
+      background-color: #ddd;
+    }
+
+    h3 {
+      margin-top: 40px;
+    }
+
+    .all-text {
+      position: relative;
+    }
+
+    .two-texts {
+      display: flex;
+      position: relative;
+    }
+
+    .two-texts p {
+      font-size: 14px;
+    }
+
+    .left {
+      width: 170px;
+      color: rgba(0,0,0,.6);
+    }
+
+    .right {
+      width: 380px;
+    }
+
+    .sinopsis {
+      margin-top: 50px;
+      margin-bottom: 70px;
+    }
+
+    .sinopsis p {
+      margin-top: 35px;
+    }
+
+    .footer {
+      bottom: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 100px; /* задаем высоту блока */
+      background-color: #141414; /* задаем цвет фона блока */
+    }
+
+    .footer p {
+      color: rgba(255,255,255,.6);
+    }
