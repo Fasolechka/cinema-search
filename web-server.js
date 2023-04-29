@@ -3,6 +3,7 @@ const fs = require('fs');
 const path = require('path');
 const os = require('os');
 
+// get local ip address
 function getLocalIpAddress() {
   const ifaces = os.networkInterfaces();
 
